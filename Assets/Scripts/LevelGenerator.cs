@@ -9,17 +9,22 @@ public class LevelGenerator : MonoBehaviour
     [SerializeField] int initialChunksAmount = 10;
     [SerializeField] int chunkLength = 10;
     [SerializeField] float moveSpeed = 10f;
-
+    public bool isMoving = true;
     List<GameObject> chunks= new List<GameObject>();
     //GameObject[] chunks = new GameObject[10];
     private void Start()
     {
+        
         SpawnChunk();
         SpawnNewChunk();
     }
 
     private void Update()
     {
+        if (!isMoving)
+        {
+            return;
+        }
         MoveChunk();
     }
 
@@ -60,6 +65,10 @@ public class LevelGenerator : MonoBehaviour
         
         }
         
+    }
+    public void StopMoving()
+    {
+        isMoving = false;
     }
 }
 
