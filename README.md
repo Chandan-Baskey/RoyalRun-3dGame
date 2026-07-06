@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/Chandan-Baskey/RoyalRun-3dGame/blob/70612249410b81798817484b3e2f88db15be3e4d/Royal%20run.png?raw=true" alt="Escape The Cave banner" width="100%">
+</p>
+
 # 🏃‍♂️ Royal Runner
 
 ![Unity](https://img.shields.io/badge/Unity-2022.3%2B-black?logo=unity)
