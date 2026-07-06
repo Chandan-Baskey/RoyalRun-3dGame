@@ -16,10 +16,10 @@ A 3D lane-based endless runner built in Unity. Chunk-based procedural level gene
 ---
 
 ## 📸 Screenshots
-
-| Game View | Start Screen |
-|---|---|
-| ![Royal Runner Game View](https://github.com/Chandan-Baskey/RoyalRun-3dGame/blob/7f435a76ac801ad85d3546c80cc743f10782f130/Ruuner%20Game%20View.jpg?raw=true) | ![Start Screen](https://github.com/Chandan-Baskey/RoyalRun-3dGame/blob/7f435a76ac801ad85d3546c80cc743f10782f130/Start.jpg?raw=true) |
+<p align="center">
+  <img src="https://github.com/Chandan-Baskey/RoyalRun-3dGame/blob/7f435a76ac801ad85d3546c80cc743f10782f130/Start.jpg?raw=true?raw=true" width="600">
+  <br><em>Start View </em>
+</p>
 
 | Gameplay | Game Over |
 |---|---|
