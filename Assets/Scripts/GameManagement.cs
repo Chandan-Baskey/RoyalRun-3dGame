@@ -33,12 +33,13 @@ public class GameManagement : MonoBehaviour
 
     private void Update()
     {
-        score = scoreFactor * Time.time;
-        scoreUI.text =((int)score).ToString();
         
-        
+        ScoreT();
 
-        if(life <= 0)
+
+
+
+        if (life <= 0)
         {
            GameOver();
            
@@ -64,13 +65,19 @@ public class GameManagement : MonoBehaviour
     public void ChangeCoin(int amount)
     {
         coin += amount;
-        CoinUI.text = "Score: "+ coin.ToString();
+        CoinUI.text = coin.ToString();
     }
 
     public void ChangeLife(int amount)
     {
         life += amount;
-        lifeUI.text = "Health: "+ life.ToString();
+        lifeUI.text = life.ToString();
+    }
+
+    void ScoreT()
+    {
+        score = scoreFactor * Time.time;
+        scoreUI.text = ((int)score).ToString();
     }
 
     public void Restart()
